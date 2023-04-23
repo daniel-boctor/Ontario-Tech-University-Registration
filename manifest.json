@@ -1,0 +1,48 @@
+{
+
+  "manifest_version": 2,
+  "name": "Ontario Tech University Registration",
+  "version": "1.0",
+
+  "description": "A suite of tools to enhance the Ontario Tech University registration portal.",
+  "homepage_url": "https://github.com/daniel-boctor/Ontario-Tech-University-Registration",
+  "author": "Daniel Boctor",
+
+  "icons": {
+    "48": "icons/OTU.png",
+    "96": "icons/OTU.png"
+  },
+
+  "permissions": [
+    "alarms",
+    "storage",
+    "notifications",
+    "https://ssp.mycampus.ca/*",
+    "https://www.ratemyprofessors.com/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/OTU.png",
+    "default_title": "Ontario Tech Registration",
+    "default_popup": "popup/OTU.html"
+  },
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://ssp.mycampus.ca/*"],
+      "js": ["jquery-3.6.4.min.js", "content.js", "strings.js"]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "daniel.boctor@ontariotechu.net"
+    }
+  }
+
+}
