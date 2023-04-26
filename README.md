@@ -6,7 +6,7 @@
 </h1>
 
 <p align="center">
-    <a href="https://addons.mozilla.org/addon/ontario-tech-registration/"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get OTU Reg for Firefox"></a>
+    <a href="https://github.com/daniel-boctor/Ontario-Tech-University-Registration/releases"><img src="https://user-images.githubusercontent.com/585534/107280546-7b9b2a00-6a26-11eb-8f9f-f95932f4bfec.png" alt="Get OTU Reg for Firefox"></a>
 </p>
 
 ***
