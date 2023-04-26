@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Ontario Tech University Registration",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "description": "A suite of tools to enhance the Ontario Tech University registration portal.",
   "homepage_url": "https://github.com/daniel-boctor/Ontario-Tech-University-Registration",
@@ -41,7 +41,8 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "daniel.boctor@ontariotechu.net"
+      "id": "daniel.boctor@ontariotechu.net",
+      "update_url": "https://raw.githubusercontent.com/daniel-boctor/Ontario-Tech-University-Registration/main/update.json"
     }
   }
 
