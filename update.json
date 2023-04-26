@@ -1,0 +1,12 @@
+{
+    "addons": {
+        "daniel.boctor@ontariotechu.net": {
+            "updates": [
+                {
+                    "version": "1.0.1",
+                    "update_link": "https://github.com/daniel-boctor/Ontario-Tech-University-Registration/releases/download/v1.0.1/ontario_tech_registration-1.0.1.xpi"
+                }
+            ]
+        }
+    }
+}
